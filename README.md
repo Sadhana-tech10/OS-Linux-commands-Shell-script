@@ -434,25 +434,7 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 ![alt text](<Screenshot 2026-05-31 115820.png>)
- 
-ls file1
-## OUTPUT
-
-echo $?
-## OUTPUT 
-./one
-bash: ./one: Permission denied
- 
-echo $?
-## OUTPUT 
- 
-abcd
- 
-echo $?
- ## OUTPUT
-
-
- 
+  
 # mis-using string comparisons
 
 cat < strcomp.sh 
