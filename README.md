@@ -42,28 +42,24 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![alt text](<linux_commands/Screenshot 2026-05-27 141340.png>)
-
+![alt text](<Screenshot 2026-05-27 141340.png>)
 
 cat < file2
 ## OUTPUT
-![alt text](<linux_commands/Screenshot 2026-05-27 141421.png>)
-
+![alt text](<Screenshot 2026-05-27 141421.png>)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-![alt text](<linux_commands/Screenshot 2026-05-27 142300.png>)
 
- 
+![alt text](<Screenshot 2026-05-27 142300.png>)
+
 comm file1 file2
  ## OUTPUT
-![alt text](<linux_commands/Screenshot 2026-05-27 142317.png>)
- 
+ ![alt text](<Screenshot 2026-05-27 142317.png>)
 diff file1 file2
 ## OUTPUT
-![alt text](<linux_commands/Screenshot 2026-05-27 142341.png>)
-
+![alt text](<Screenshot 2026-05-27 142341.png>)
 #Filters
 
 ### Create the following files file11, file22 as follows:
@@ -85,17 +81,8 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![alt text](<linux_commands/Screenshot 2026-05-27 142500.png>)
 
-
-
-cut -d "|" -f 1 file22
-## OUTPUT
-
-
-
-cut -d "|" -f 2 file22
-## OUTPUT
+![alt text](<Screenshot 2026-05-27 142500.png>)
 
 cat < newfile 
 ```
@@ -109,40 +96,28 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-![alt text](<linux_commands/Screenshot 2026-05-30 171449.png>)
-
-
-
-grep hello newfile 
-## OUTPUT
-![alt text](<linux_commands/Screenshot 2026-05-30 171449.png>)
-
-
+![alt text](<Screenshot 2026-05-30 171449.png>)
 
 
 grep -v hello newfile 
 ## OUTPUT
-![alt text](<linux_commands/Screenshot 2026-05-30 171507.png>)
 
-
+![alt text](<Screenshot 2026-05-30 171507.png>)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-![alt text](<linux_commands/Screenshot 2026-05-30 171516.png>)
 
-
+![alt text](<Screenshot 2026-05-30 171516.png>)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-![alt text](<linux_commands/Screenshot 2026-05-30 171526.png>)
-
+![alt text](<Screenshot 2026-05-30 171526.png>)
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-![alt text](<linux_commands/Screenshot 2026-05-30 171543.png>)
 
 
 
