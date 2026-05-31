@@ -118,12 +118,12 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
-
+![alt text](<Screenshot 2026-05-30 171543.png>)
 
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![alt text](<Screenshot 2026-05-30 172558.png>)
 
 cat < newfile 
 ```
@@ -144,10 +144,6 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
-egrep -w 'Hello|hello' newfile 
-## OUTPUT
-
-
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 ![alt text](<Screenshot 2026-05-30 172647.png>)
@@ -399,7 +395,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![alt text](<Screenshot 2026-05-31 115753.png>)
 
 cat < scriptest.sh 
 ```bash
@@ -437,7 +433,7 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
+![alt text](<Screenshot 2026-05-31 115820.png>)
  
 ls file1
 ## OUTPUT
@@ -485,14 +481,13 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![alt text](<Screenshot 2026-05-31 115840.png>)
 
 
 # check file ownership
@@ -520,7 +515,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-
+![alt text](<Screenshot 2026-05-31 115900.png>)
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -566,7 +561,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![alt text](<Screenshot 2026-05-31 115921.png>)
 
 
 # using numeric test comparisons
@@ -609,8 +604,8 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
-
+## OUTPUT
+![alt text](<Screenshot 2026-05-31 115937.png>)
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -658,8 +653,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
-
+## OUTPUT
+![alt text](<Screenshot 2026-05-31 120012.png>)
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -688,7 +683,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-
+![alt text](<Screenshot 2026-05-31 120032.png>)
 # testing compound comparisons
 cat> ifcompound.sh 
 ```bash
@@ -703,7 +698,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
+![alt text](<Screenshot 2026-05-31 120052.png>)
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -722,7 +717,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ ## OUTPUT
+ ![alt text](<Screenshot 2026-05-31 120110.png>)
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -737,7 +733,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ![alt text](<Screenshot 2026-05-31 120122.png>)
+
  
 cat untiltest.sh 
 ```bash
@@ -750,9 +747,10 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+
+ ## OUTPUT
  
- 
- 
+ ![alt text](<Screenshot 2026-05-31 120134.png>)
 cat forin1.sh 
 ```bash
 \#!/bin/bash
@@ -765,7 +763,7 @@ done
  
 $ chmod 755 forin1.sh
  
- 
+ ![alt text](<Screenshot 2026-05-31 120145.png>)
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -814,6 +812,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![alt text](<Screenshot 2026-05-31 120145-1.png>)
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -835,7 +834,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![alt text](<Screenshot 2026-05-31 131849.png>)
 
 cat forctype.sh 
 ```bash
@@ -849,7 +848,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
-
+![alt text](<Screenshot 2026-05-31 131900.png>)
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -862,7 +861,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-
+![alt text](<Screenshot 2026-05-31 131917.png>)
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -881,7 +880,7 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
- 
+ ![alt text](<Screenshot 2026-05-31 131930.png>)
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -897,7 +896,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-
+![alt text](<Screenshot 2026-05-31 131952.png>)
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
@@ -922,7 +921,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![alt text](<Screenshot 2026-05-31 132004.png>)
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -936,6 +935,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![alt text](<Screenshot 2026-05-31 132021.png>)
 
 
  cat exread1.sh
@@ -948,7 +948,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-
+![alt text](<Screenshot 2026-05-31 132032.png>)
 
 
 $ ./exread1.sh 
@@ -971,7 +971,7 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
- 
+ ![alt text](<Screenshot 2026-05-31 132046.png>)
  ./funcex.sh 1 2
 
  
@@ -987,7 +987,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![alt text](<Screenshot 2026-05-31 132106.png>)
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1004,7 +1004,7 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![alt text](<Screenshot 2026-05-31 132132.png>)
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1018,7 +1018,7 @@ set +x
 ## OUTPUT
  ./argshift.sh 1 2 3
  
- 
+ ![alt text](<Screenshot 2026-05-31 132152.png>)
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1048,7 +1048,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+![alt text](<Screenshot 2026-05-31 132207.png>)
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1076,6 +1076,6 @@ fi
 ```
 ## OUTPUT 
 
-
+![alt text](<Screenshot 2026-05-31 132220.png>)
 # RESULT:
 The Commands are executed successfully.
